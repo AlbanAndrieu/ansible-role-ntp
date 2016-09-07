@@ -40,3 +40,4 @@
     dest: /etc/ntp.conf
   notify: restart ntp
   when: ntp_manage_config
+  become: yes
